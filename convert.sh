@@ -12,4 +12,5 @@ for i in $(find animate.css/source -name '*.css' -mindepth 2); do
     echo "@import '../_base.less';" && 
     cat $i|sed -Ee 's/^\.([a-zA-Z0-9_]+) \{/.\1\(\) \{/'
   ) > $output
+  echo $output
 done

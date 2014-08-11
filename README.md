@@ -16,7 +16,7 @@ The script will clone `animate.css` into a submodule and then convert each file 
 
 Include the individual animation in your LESS using the import statement:
 
-`@import 'animate.less/attention_seekers/bounce.less`
+`@import 'animate.less/attention_seekers/bounce.less'`
 
 ## Licence
 
